@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LInjectorPlugin", "LInjectorPlugin\LInjectorPlugin.csproj", "{6502459D-6A28-434D-8426-86BC8B98374C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LauncherGamePlugin", "Alfae\LauncherGamePlugin\LauncherGamePlugin.csproj", "{3312D87C-0691-4CF0-90F5-A74F02E78CBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6502459D-6A28-434D-8426-86BC8B98374C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6502459D-6A28-434D-8426-86BC8B98374C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6502459D-6A28-434D-8426-86BC8B98374C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6502459D-6A28-434D-8426-86BC8B98374C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3312D87C-0691-4CF0-90F5-A74F02E78CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3312D87C-0691-4CF0-90F5-A74F02E78CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3312D87C-0691-4CF0-90F5-A74F02E78CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3312D87C-0691-4CF0-90F5-A74F02E78CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
