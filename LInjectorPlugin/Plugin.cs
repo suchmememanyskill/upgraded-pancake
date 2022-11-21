@@ -1,4 +1,5 @@
 ﻿using System.IO.Compression;
+using LauncherGamePlugin;
 using LauncherGamePlugin.Commands;
 using LauncherGamePlugin.Forms;
 using LauncherGamePlugin.Interfaces;
@@ -17,10 +18,11 @@ public class Plugin : IGameSource
     private Dictionary<string, InstalledJson> installedGames;
     public IApp App { get; private set; }
     
-    public async Task Initialize(IApp app)
+    public async Task<InitResult?> Initialize(IApp app)
     {
         await GetInstalledGames();
         App = app;
+        return null;
     }
 
     public async Task<List<IGame>> GetGames()
